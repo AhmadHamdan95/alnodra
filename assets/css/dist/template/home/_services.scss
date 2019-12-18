@@ -1,0 +1,16 @@
+.services{
+  .services-title{
+    h2{
+      @extend %underline;
+      font-size: 24px;
+      color: #222;
+    }
+  }
+  .services-items{
+    min-height: 212px;
+    height: 100%;
+    h5{
+      font-size: 18px;
+    }
+  }
+}

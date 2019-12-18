@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb6330a9-c4e3-4b71-92a7-fba8571c0d07" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TvBo4PQa5JFd9Mn0xqEanCK0i1" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../food shop" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\alnodra\assets\css\dist\template\layouts" />
+      <recent name="C:\xampp\htdocs\alnodra\blocks\layouts" />
+      <recent name="C:\xampp\htdocs\alnodra\assets\css\fonts" />
+      <recent name="C:\xampp\htdocs\atyaf\blocks\layouts" />
+      <recent name="C:\xampp\htdocs\atyaf\assets\css\dist" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\alnodra\blocks\layouts" />
+      <recent name="C:\xampp\htdocs\atyaf\assets\css\dist\template\layouts" />
+      <recent name="C:\xampp\htdocs\atyaf\assets\css\dist" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb6330a9-c4e3-4b71-92a7-fba8571c0d07" name="Default Changelist" comment="" />
+      <created>1574330861036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574330861036</updated>
+      <workItem from="1574330864425" duration="12572000" />
+      <workItem from="1574715968000" duration="6000000" />
+      <workItem from="1574761403856" duration="2079000" />
+      <workItem from="1574766966926" duration="5217000" />
+      <workItem from="1574772439442" duration="4416000" />
+      <workItem from="1574784656484" duration="669000" />
+      <workItem from="1574786311016" duration="5607000" />
+      <workItem from="1574797294278" duration="36789000" />
+      <workItem from="1574937694744" duration="5388000" />
+      <workItem from="1574943428173" duration="6258000" />
+      <workItem from="1574962955615" duration="2981000" />
+      <workItem from="1574970697237" duration="13881000" />
+      <workItem from="1575039980386" duration="34953000" />
+      <workItem from="1575121361428" duration="2473000" />
+      <workItem from="1575187463307" duration="5311000" />
+      <workItem from="1575285851943" duration="3460000" />
+      <workItem from="1575312913772" duration="18277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

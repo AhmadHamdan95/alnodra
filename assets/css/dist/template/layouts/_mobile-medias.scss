@@ -1,0 +1,13 @@
+.mobile-medias{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: $z-index;
+  //display: none;
+  opacity: 0;
+  transition: all 0.5s ease;
+  a{
+    color: #222;
+  }
+}

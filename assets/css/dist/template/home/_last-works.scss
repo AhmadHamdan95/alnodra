@@ -1,0 +1,67 @@
+.last-works{
+  background-image: url('../images/work-bg.jpg');
+  background-size: cover;
+  background-position: center;
+
+  h2{
+    @extend %underline;
+    font-size: 24px;
+    color: #222;
+  }
+
+  .work-img{
+    a{
+      display: block;
+      position: relative;
+      overflow: hidden;
+      &:before{
+        content: "";
+        background-color: rgba(0,0,0,0);
+        width: 0;
+        height: 0;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transition: all 0.5s ease;
+      }
+      h6{
+        @extend %underline;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        color: #fff;
+        opacity: 0;
+        transition: all 0.5s ease;
+        span{
+          width: calc(100% / 3);
+          right: calc(100% / 3);
+          &:before{
+            width: calc(100% - 5px);
+            right: -100%;
+          }
+          &:after{
+            width: calc(100% - 5px);
+            right: calc(100% + 5px);
+          }
+        }
+      }
+
+      &:hover{
+        &:before{
+          background-color: rgba(0,0,0,0.8);
+          width: 200%;
+          height: 200%;
+          top: -50%;
+          right: -50%;
+          //transform: translate(50%, -50%) scale(2);
+        }
+        h6{
+          opacity: 1;
+        }
+      }
+    }
+
+  }
+}

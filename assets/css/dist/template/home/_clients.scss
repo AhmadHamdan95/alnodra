@@ -1,0 +1,12 @@
+.clients{
+  .clients-title{
+    h2{
+      @extend %underline;
+      font-size: 24px;
+      color: #222;
+    }
+  }
+  .clients-items{
+    height: 100%;
+  }
+}

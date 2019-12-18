@@ -1,0 +1,62 @@
+.theSlider{
+  position: relative;
+
+  .swiper-slide{
+    .item{
+      @extend %overlay;
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+      .sliderText{
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        transform: translateY(-27px);
+        p{
+          color: #fff;
+          font-size: 30px;
+          position: relative;
+          &:before{
+            content: "";
+            width: 2px;
+            height: 20px;
+            background-color: #c1702e;
+            position: absolute;
+            right: -15px;
+            top: 15px;
+          }
+        }
+        @media (max-width: 767px) {
+          right: 15%;
+        }
+      }
+    }
+  }
+
+  .swiper-button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-27px);
+    z-index: 1;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    background-color: #222;
+    transition-duration: 0.5s;
+
+    &:not(.swiper-button-disabled):hover{
+      background-color: #c1702e;
+      cursor: pointer;
+    }
+
+    &-prev{
+      right: 0;
+    }
+    &-next{
+      left: 0;
+    }
+  }
+
+}

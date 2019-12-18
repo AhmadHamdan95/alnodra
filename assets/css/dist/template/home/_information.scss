@@ -1,0 +1,12 @@
+.information{
+  .information-title{
+    h2{
+      @extend %underline;
+      font-size: 24px;
+      color: #222;
+    }
+  }
+  .information-item{
+    color: #333;
+  }
+}
